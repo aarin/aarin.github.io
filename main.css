@@ -391,6 +391,7 @@ a:hover {
 	#banner
 	{
 		overflow: hidden;
+		padding: 4em 0em 4em 0em;
 		background: #82b440;
 		background-size: cover;
 		text-align: center;
