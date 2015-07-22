@@ -312,7 +312,7 @@ a:hover {
 	#header
 	{
 		position: relative;
-		padding: 3em 0em;
+		padding: 0em 0em;
 	}
 
 /*********************************************************************************/
@@ -322,7 +322,6 @@ a:hover {
 	#logo
 	{
 		position: absolute;
-		top: 1em;
 		left: 0;
 	}
 	
