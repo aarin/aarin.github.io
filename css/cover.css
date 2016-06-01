@@ -1,0 +1,70 @@
+#header {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#mytitle {
+    color: #FFFFFF;
+    padding: 15px 0;
+}
+
+#footer {
+    background: #E6B89C;
+    margin-top: 20px;
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+    clear:both;
+}
+.main {
+    width: 750px;
+    margin: 0 auto;
+}
+/* Columns */
+.left-sidebar {
+    float: left;
+    width: 40%;
+}
+.right-main {
+    float: right;
+    width: 60%;
+}
+.col1, .col3{
+    float: left;
+    width: 40%;
+}
+.col2{
+    display: inline-block;
+    width: 45%;
+}
+.col3 {
+    float: right;
+}
+/* End Columns */
+
+.grayed {
+    display: inline;
+    color: #777;
+}
+
+/*Resume page*/
+.skills-list {
+    list-style-type: none;
+    padding: 0 0 0 5px;
+}
+
+.experience-container {
+    clear: both;
+}
+
+/*Overwrite bootstrap*/
+/*Skills panels*/
+.panel-primary>.panel-heading {
+    background-color: #333;
+    border-color: #333;
+}
+.panel-primary{
+    width: 90%;
+    border-color: #333;
+    height: 240px;
+}
