@@ -3,111 +3,401 @@
 <head>
     <meta charset="UTF-8">
     <title>Aarin Salda&ntilde;a: Profile</title>
-    <!--stylesheets-->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/cover.css" rel="stylesheet">
-    <!--Header font-family-->
-    <link href='https://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
-    <!--add stylesheet for .body font-family-->
+    <!--links to stylesheets-->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,400italic,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="app.css">
+    <!-- bootstrap mobile first -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 </head>
 <body>
-    <div class="body">
-        <!--Header-->
-        <div id="header">
-            <h1>Aarin Salda&ntilde;a</h1>
+
+<!--bootstrap navbar-->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#landing">AS</a>
         </div>
-
-        <!--Navigation Menu-->
-        <nav class="navbar navbar-inverse">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div>
-                <div class="collapse navbar-collapse" id="myNavbar">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.html">Profile</a></li>
-                        <li><a href="resume.html">Resum&eacute;</a></li>
-                        <li><a href="education.html">Education</a></li>
-                        <!--<li><a href="contact.html">Contact</a></li>-->
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right">
-                        <li id="mytitle">Engineer & Developer For Hire</li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-        <!--Main Content-->
-        <div class="container">
-            <div class="main">
-                <!--Column 1-->
-                <div class="left-sidebar">
-                    <h2><img src="public/headshot.jpg" class="img-circle" alt="Aarin Salda&ntilde;a" width="90%" height="90%"></h2>
-                    <ul style="list-style: none;">
-                        <ul class="nav navbar-nav">
-                            <li>Name:&nbsp;</li>
-                            <li>Aarin Salda&ntilde;a</li>
-                        </ul>
-                        <ul class="nav navbar-nav">
-                            <li>Address:&nbsp;</li>
-                            <li>Renton, WA</li>
-                        </ul>
-                        <ul class="nav navbar-nav">
-                            <li>Email:&nbsp;</li>
-                            <li>aarin.saldana@yahoo.com</li>
-                        </ul>
-                        <ul class="nav navbar-nav">
-                            <li><a href="https://www.linkedin.com/in/aarinsaldana">Visit my LinkedIn Profile</a></li>
-                        </ul>
-                </div>
-                <!--Column 2-->
-                <div class="right-main" style="margin-top: 20px">
-                    <h2>Recent Engineer Graduate</h2>
-                    <p>I received my Bachelors degree in Electrical Engineering in March 2015
-                        and gained experience as an electrical engineer/application developer
-                        while working for an engineering consulting company. My primary responsibilities
-                        included front-end development and UI design, testing electrical hardware,
-                        producing schematics and technical documents, and a few
-                        other various tasks. With a willingness to learn and take direction, I am able to problem solve
-                        and provide both technical and creative solutions.</p>
-
-                    <h3>Highlights</h3>
-                    <ul>
-                        <ul>
-                            <li>Graduated with Cum Laude honors</li>
-                            <li>1 year relevant work experience</li>
-                            <li>Enthusiastic learner</li>
-                            <li>Great organization and attention-to-detail</li>
-                            <li>Works efficiently in a team environment</li>
-                        </ul>
-                    </ul>
-                </div>
-            </div>
+        <div id="navbar" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <!--<li class="active"><a href="/home">Home</a></li>-->
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#about">About</a></li>
+                <li><a href="#specialties">Specialties</a></li>
+                <li><a href="#resume">Resum&eacute;</a></li>
+                <li><a href="#connect">Connect</a></li>
+            </ul>
         </div>
+    </div>
+</nav>
 
-        <!--Footer-->
-        <div id="footer">
-            <div id="footerContent">
-                <div class="left-sidebar">
-                    <p style="float: left; padding-left: 50px;">&copy; June 2016 Aarin Salda&ntilde;a</p>
-                </div>
-                <div class="right-main">
-                    <a href="public/AarinSaldanaCV.pdf" download style="float: right; padding-right: 20px;">
-                        <button type="button" class="btn btn-primary">Download CV</button>
-                    </a>
+<!-- #landing -->
+<a name="landing"></a>
+<div id="landing">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="content">
+                    <h1 class="title">Aarin Saldaña</h1>
+                    <h3 class="highlight">Passionate about growing minds</h3>
                 </div>
             </div>
         </div>
     </div>
+</div>
 
-    <!--Scripts-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
+<!-- #about -->
+<a name="about"></a>
+<div class="container top-padding">
+    <div class="row">
+        <h3 class="title">About Me</h3>
+        <hr>
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-sm-3 col-md-offset-1">
+                    <img class="img-responsive img-circle headshot" src="headshot.jpg">
+                </div>
+                <div class="col-md-7">
+                    <h3>Recent Engineer Graduate & Self-Taught Developer</h3>
+                    <div class="highlight">Devoted to continued learning and sharing my knowledge</div>
+                    <div class="top-padding">
+                        I received my Bachelors degree in Electrical Engineering in March 2015 and gained experience as a
+                        front-end developer and Jr. electrical engineer while working for an engineering consulting firm.
+                        Over the past couple of years I have fostered a desire to learn more about computer programming and
+                        software/web development and have done so by self-teaching myself and really utilizing the various
+                        resources found online. I have passion for design, creativity, problem-solving, and educating and I want
+                        to provide various services in the area of STEM, coding, and web development.
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- #specialties -->
+<a name="specialties"></a>
+<div class="container featured">
+    <div class="row text-center">
+        <h3 class="title">What can I do for you?</h3>
+        <hr>
+        <div class="col-xs-12 col-sm-3">
+            <a>
+                <i class="fa fa-desktop" aria-hidden="true"></i>
+                <div class="bottom-padding">
+                    <h4>Web Development</h4>
+                    <hr>
+                    <div class="highlight">
+                        Experienced with JavaScript, HTML5, CSS3, jQuery, Bootstrap, Node.js, MongoDB, and Express.js
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-xs-12 col-sm-3">
+            <a>
+                <i class="fa fa-code" aria-hidden="true"></i>
+                <div class="bottom-padding">
+                    <h4>Teaching</h4>
+                    <hr>
+                    <div class="highlight">
+                        Exploring childhood education in the STEM fields and computer programming.
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-xs-12 col-sm-3">
+            <a>
+                <i class="fa fa-plug" aria-hidden="true"></i>
+                <div class="bottom-padding">
+                    <h4>Engineering</h4>
+                    <hr>
+                    <div class="highlight">
+                        Technical knowledge with hardware and software.
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="col-xs-12 col-sm-3">
+            <a>
+                <i class="fa fa-comments-o" aria-hidden="true"></i>
+                <div class="bottom-padding">
+                    <h4>Freelance</h4>
+                    <hr>
+                    <div class="highlight">
+                        Got a problem? I want to help you find a solution!
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- #resume -->
+<a name="resume"></a>
+<div class="container featured text-center">
+    <div class="row">
+        <h3 class="title">Resum&eacute;</h3>
+        <hr>
+        <div class="col-s-12 col-md-4 large-right">
+            I'm always looking for ways to learn
+        </div>
+        <div class="col-s-12 col-md-8">
+            <div class="top-padding bottom-padding title">
+                <h4>Technical Skills</h4>
+            </div>
+            <div class="title-highlight">
+                    <div class="row">
+                        <div class="col-xs-6">
+                            JavaScript
+                        </div>
+                        <div class="col-xs-6">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-6">
+                            HTML5
+                        </div>
+                        <div class="col-xs-6">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                <div class="row">
+                    <div class="col-xs-6">
+                        CSS3
+                    </div>
+                    <div class="col-xs-6">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6">
+                        jQuery
+                    </div>
+                    <div class="col-xs-6">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6">
+                        Node.js
+                    </div>
+                    <div class="col-xs-6">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6">
+                        Bootstrap
+                    </div>
+                    <div class="col-xs-6">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6">
+                        Java
+                    </div>
+                    <div class="col-xs-6">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6">
+                        Git
+                    </div>
+                    <div class="col-xs-6">
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Experience Container -->
+<div class="container experience">
+    <div class="row text-center">
+        <h3 class="title">Experience</h3>
+        <hr>
+        <div class="col-md-4">
+            <div class="thumbnail">
+                    <h3 class="subtitle">Web Developer</h3>
+                    <h5>Talos Embedded Systems</h5>
+                    <h5 class="bottom-padding">August 2015 - Present</h5>
+                <div class="desc">
+                    Maintaining legacy code and completing the development of a full-stack web application in JavaScript and NodeJS. Revamping web application design and functionality. Testing and debugging front-end code using dev tools.                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="thumbnail">
+                <h3 class="subtitle">Jr. Electrical Engineer</h3>
+                <h5>Talos Embedded Systems</h5>
+                <h5 class="bottom-padding">August 2015 - Present</h5>
+                <div class="desc">
+                    Performing hardware testing of control systems. Generating schematic captures, assembly drawings, and other technical project documents. Assisting in software development running on a real-time operating system.
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="thumbnail">
+                <h3 class="subtitle">Math Tutor</h3>
+                <h5>Freelance @ North Seattle College</h5>
+                <h5 class="bottom-padding">September 2011 - June 2012</h5>
+                <div class="desc">
+                    Facilitating one-on-one learning with students in college level math courses. Creating curriculums, communicating techniques to solve complex problems, and guiding students to utilize textbooks, lecture notes, and online resources.
+                    <br><br>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Education Container -->
+<div class="container">
+    <div class="row text-center">
+        <h3 class="title">Education</h3>
+        <hr>
+        <div class="col-lg-12">
+            <div class="thumbnail">
+                <h3 class="title">Bachelor of Science, 2015</h3>
+                <h5>Electrical Engineering</h5>
+                <h5 class="bottom-padding">Eastern Washington University</h5>
+                <div class="desc">
+                    Endured a rigorous STEM program and graduated with Cum Laude Honors and a Major GPA of 3.6/4.0.
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="thumbnail">
+                <h3 class="subtitle">The Web Development Bootcamp, 2016</h3>
+                <h5>Udemy, Inc.</h5>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="thumbnail">
+                <h3 class="subtitle">Certified LabVIEW Associate Developer, 2015</h3>
+                <h5>National Instruments</h5>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="thumbnail">
+                <h3 class="subtitle">One Month Rails Certification, 2015</h3>
+                <h5>One Month, Inc.</h5>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Portfolio Action Container with Parallax Effect -->
+<div id="portfolio-action">
+    <div class="container-fluid parallax">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="content">
+                    <h1 class="subtitle">Like what you see?</h1>
+                    <h3>Let's chat! Send me an e-mail to get the ball rolling!</h3>
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- #connect -->
+<a name="connect"></a>
+<div class="container connect bottom-padding">
+    <div class="row text-center">
+        <h3 class="title">Connect</h3>
+        <div class="highlight">I'd love to hear from you!</div>
+        <hr>
+        <div class="col-xs-6 col-sm-3">
+            <a>
+                <i class="fa fa-map-pin" aria-hidden="true"></i>
+                <br>
+                <span class="h5">Renton, WA</span>
+            </a>
+        </div>
+        <div class="col-xs-6 col-sm-3">
+            <a>
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <br>
+                <span class="h5">aarin.saldana@outlook.com</span>
+            </a>
+        </div>
+        <div class="col-xs-6 col-sm-3">
+            <a href="https://github.com/aarin">
+                <i class="fa fa-github" aria-hidden="true"></i>
+                <br>
+                <span class="h5">Github</span>
+            </a>
+        </div>
+        <div class="col-xs-6 col-sm-3">
+            <a href="https://www.linkedin.com/in/aarinsaldana">
+                <i class="fa fa-linkedin"></i>
+                <br>
+                <span class="h5">LinkedIn</span><br></a>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="subtitle">Any Questions? Just ask!</div>
+                <i class="fa fa-envelope" aria-hidden="true"></i> aarin.saldana@outlook.com
+                <div>Copyright &copy; September 2016.</div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script type="text/javascript">
+    window.addEventListener("hashchange", function() { scrollBy(0, -50) })
+</script>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 </body>
 </html>
